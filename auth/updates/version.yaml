@@ -1,0 +1,5 @@
+v1.0.1: First version of Auth
+
+v1.0.2:
+    - 2024_09_04_205633_add_slack_fields_to_users_table.php
+
