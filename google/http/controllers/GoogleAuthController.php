@@ -41,10 +41,10 @@ class GoogleAuthController extends Controller
 
             Auth::login($user);
 
-            return redirect('/october_cms/backend');
+            return redirect('/backend');
 
         } catch (\Exception $e) {
-            return redirect('/october_cms/backend/auth/signin')->with('error', 'Failed to authenticate with Google.');
+            return redirect('/backend/auth/signin')->with('error', 'Failed to authenticate with Google.');
         }
     }
 }
