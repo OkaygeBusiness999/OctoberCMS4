@@ -1,6 +1,6 @@
 <?php
 
-namespace AppAuth\Google\Controllers;
+namespace AppAuth\Google\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Socialite\Facades\Socialite;
